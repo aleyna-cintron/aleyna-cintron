@@ -52,8 +52,8 @@ header{
 }
 /* About Me Section */
 #aleyna_avatar{
-    /* border-radius: 50%; */
-    height: 200px;
+    border-radius: 5%;
+    height: 500px;
 }
 #about_me_text, #skills_text, #projects_text, #contact_me{
     border-top: 3px solid 
