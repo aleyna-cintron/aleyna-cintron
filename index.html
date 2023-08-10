@@ -66,52 +66,109 @@
                 <a id="project_btn" href="#projects" class="inline-block text-center px-9 py-5 rounded-lg shadow-lg text-2xl mb-10">See my Projects</a>
             </div>
         </div>
-    </section>        
+    </section>
+    <!-- edited skills section -->
+    <!-- the goal is to make a percent bar corresponding with each skill -->
     <section id="skills" class="bg-black p-10">
         <h1 id="skills_text" class="text-center text-4xl p-4 mb-6 lg:text-6xl">My Skills</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2">
-            <img src="assets/IMG/skills.png" alt="Skills Graph Picture" class="w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div id="non-technical_skills" class="mt-8">
+                <ul class="technical-skills">
+                    <li class="ml-4 mr-4 mb-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">CSS</div>
+                            <div class="inline-block">95%</div>
+                        </div>
+                        <span class="bar">
+                            <span class="css"></span>
+                        </span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">HTML</div>
+                            <div class="inline-block">99%</div>
+                        </div>
+                        <span class="bar"><span class="html"></span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">Javascript</div>
+                            <div class="inline-block">90%</div>
+                        </div>
+                        <span class="bar"><span class="javascript"></span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">React</div>
+                            <div class="inline-block">85%</div>
+                        </div>
+                        <span class="bar"><span class="react"></span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">Node.js</div>
+                            <div class="inline-block">95%</div>
+                        </div>
+                        <span class="bar"><span class="nodejs"></span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">Mongodb</div>
+                            <div class="inline-block">85%</div>
+                        </div>
+                        <span class="bar"><span class="mongodb"></span>
+                    </li>
+                    <li class="m-4">
+                        <div class="flex justify-between text-base lg:text-lg">
+                            <div class="inline-block">MySQL</div>
+                            <div class="inline-block">70%</div>
+                        </div>
+                        <span class="bar"><span class="mysql"></span>
+                    </li>
+                </ul>
+            </div>
             <div id="non-technical_skills" class="text-center mt-8">
-                <ul>
-                    <li id="change_text" class="text-2xl mb-2 lg:text-4xl">Other Skills Worth Mentioning:</li>
-                    <li class="text-base lg:text-lg">Teamwork/Collaboration</li>
-                    <li class="text-base lg:text-lg">Problem Solving</li>
-                    <li class="text-base lg:text-lg">Creativity</li>
-                    <li class="text-base lg:text-lg">Detail-Oriented</li>
+                <ul class="">
+                    <li id="change_text" class="text-4xl mb-2 lg:text-5xl">Other Skills Worth Mentioning:</li>
+                    <li class="text-xl lg:text-2xl">Teamwork/Collaboration</li>
+                    <li class="text-xl lg:text-2xl">Problem Solving</li>
+                    <li class="text-xl lg:text-2xl">Creativity</li>
+                    <li class="text-xl lg:text-2xl">Detail-Oriented</li>
                 </ul>
             </div>
         </div>
     </section>
+    <!-- end of editing portion -->
     <section id="projects" class="bg-black p-10">
         <h1 id="projects_text" class="text-center text-4xl p-4 mb-6 lg:text-6xl">Projects</h1>
         <section class="grid grid-cols-1 gap-1 lg:grid-cols-2">
             <article>
                 <h2 class="text-center text-3xl m-5">Spotify OAuth MERN Application</h2>
-                <a href="https://spotify-mern-app.netlify.app/" target="_blank"><img src="assets/IMG/spotify_app.png" alt="CSS Zen Garden Project"></a>
+                <a href="https://spotify-mern-app.netlify.app/" target="_blank"><div class="image-container"><img src="assets/IMG/spotify_app.png" alt="CSS Zen Garden Project"></div></a>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">ShipIt Social Media Application</h2>
-                <a href="https://aleyna-cintron.github.io/ship-it/profile_page.html" target="_blank"><img src="assets/IMG/shipit_app.png" alt="CSS Zen Garden Project"></a>
+                <div class="image-container"><a href="https://aleyna-cintron.github.io/ship-it/profile_page.html" target="_blank"><img src="assets/IMG/shipit_app.png" alt="CSS Zen Garden Project"></a></div>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">Beautify Makeup Searcher</h2>
-                <a href="https://beautify-makeup.netlify.app/" target="_blank"><img src="assets/IMG/beautify_app1.png" alt="CSS Zen Garden Project"></a>
+                <div class="image-container"><a href="https://beautify-makeup.netlify.app/" target="_blank"><img src="assets/IMG/beautify_app1.png" alt="CSS Zen Garden Project"></a></div>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">BMI Calculator</h2>
-                <a href="https://github.com/aleynacin/bmi-calculator" target="_blank"><img id="bmi" src="assets/IMG/bmi_cal_project.png" alt="BMI Calculator Project"></a>
+                <div class="image-container"><a href="https://github.com/aleynacin/bmi-calculator" target="_blank"><img id="bmi" src="assets/IMG/bmi_cal_project.png" alt="BMI Calculator Project"></a></div>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">Brand Yourself Codepen</h2>
-                <a href="https://codepen.io/acin1/full/RwpZVWG" target="_blank"><img src="assets/IMG/brand_project.png" alt="Brand Yourself Project"></a>
+                <div class="image-container"><a href="https://codepen.io/acin1/full/RwpZVWG" target="_blank"><img src="assets/IMG/brand_project.png" alt="Brand Yourself Project"></a></div>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">HTML Challenge Codepen</h2>
-                <a href="https://codepen.io/acin1/full/OJpMBXm" target="_blank"><img src="assets/IMG/html_chess_project.png" alt="HTML Challenge Project"></a>
+                <div class="image-container"><a href="https://codepen.io/acin1/full/OJpMBXm" target="_blank"><img src="assets/IMG/html_chess_project.png" alt="HTML Challenge Project"></a></div>
             </article>
             <article>
                 <h2 class="text-center text-3xl m-5">Zen Garden Codepen</h2>
-                <a href="https://codepen.io/acin1/full/LYWWRrR" target="_blank"><img src="assets/IMG/zen_garden_project.png" alt="CSS Zen Garden Project"></a>
+                <div class="image-container"><a href="https://codepen.io/acin1/full/LYWWRrR" target="_blank"><img src="assets/IMG/zen_garden_project.png" alt="CSS Zen Garden Project"></a></div>
             </article>
         </section>
     </section>
