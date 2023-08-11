@@ -1,6 +1,11 @@
 /* Background */
+/* Dark Black Background: #0D0D0D
+Dark Black Background: #111111
+Dark Black Background: #0E0E0E
+Dark Black Background: #0F0F0F
+Dark Black Background: #121212*/
 .dark-bg{
-    background-color: #0C0404;
+    background-color: #0A0A0A;
 }
 /* Header */
 #logo{
@@ -15,7 +20,8 @@
     z-index: 14;
 }
 header{
-    background-color: #19647E;
+    /* background-color: #19647E; */
+    background-color: #0A0A0A;
     color:#93FF96;
     font-family: Montserrat;
 }
@@ -79,17 +85,17 @@ header{
     transform: scale(1.1);
 }
 /* Skills Section */
-#about_me_text, #skills h1, #projects h1, #contact h1 {
+#about_me_text, #skills h1, #projects h1, #contact h1, #change_text, #projects h2, #contact h2{
     font-family: Nunito;
     color: #01BAEF;
 }
 #non-technical_skills{
     color: #94C5CC;
 }
-#change_text{
+/* #change_text{
     color: #93FF96;
     font-family: Lancelot;
-}
+} */
 .bar{
     background: #353b48;
     display: block;
@@ -134,7 +140,8 @@ header{
     margin-right: 25%;
 }
 /* Projects Section */
-#projects h2, #contact h2{
+/* #projects h2, */
+#contact h2{
     font-family: Lancelot;
     color: #93FF96;
 }
