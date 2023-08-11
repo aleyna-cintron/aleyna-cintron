@@ -1,3 +1,7 @@
+/* Background */
+.dark-bg{
+    background-color: #0C0404;
+}
 /* Header */
 #logo{
     background-color: white;
@@ -145,40 +149,6 @@ i:hover , svg:hover , navbar li:hover {
 }
 
 /* Breakpoints */
-@media screen and (min-width: 766px){
-    #intro {
-        background-position: 0 124px;
-    }
-}
-/* 768 or less */
-@media (min-width: 768px) {
-    .image-container img{
-        height: 20rem; 
-    }
-}
-
-/* 1024px or less */
-@media (min-width: 1024px) {
-    .image-container img{
-        height: 20rem; 
-    }
-}
-
-/* 1536 or less */
-@media (min-width: 1536px) {
-    .image-container{
-        width: 100%;
-        /* position: relative; */
-    }
-    .image-container img{
-        width: 100%;
-        height: 40rem; 
-        display: block;
-        border-radius: 1%;
-    }
-}
-
-/* here */
 /* Default styles for all screen sizes */
 .image-container {
     width: 100%;
