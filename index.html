@@ -18,14 +18,14 @@
 <body>
     <section id="intro_wrapper">
         <div id="header_wrapper" class="w-full">
-            <header class="flex flex-wrap flow-row md:justify-between items-center relative">
-                <div id="logo" class="p-4 w-full md:w-auto md:m-0">
-                    <a href="#intro" class="p-10">
+            <header class="flex flex-wrap flow-row md:justify-between items-center relative header">
+                <div class="w-full md:w-auto md:m-0">
+                    <!-- <a href="#intro" class="p-10">
                         <img class="h-10 m-auto" src="assets/IMG/logo.png" alt="Aleyna Cintron's Logo">
-                    </a>
+                    </a> -->
                 </div>
                 <navbar>
-                    <ul class="list-none flex flex-col items-center font-semibold text-base md:flex-row md:space-x-14 p-4 md:p-14 w-screen md:w-auto md:text-2xl">
+                    <ul class="list-none flex flex-col items-center font-semibold text-base md:flex-row md:space-x-14 md:p-14 w-screen md:w-auto md:text-2xl">
                         <li><a href="#intro">Home</a></li>
                         <li><a href="#about_me">About Me</a></li>
                         <li><a href="#skills">Skills</a></li>
@@ -54,89 +54,94 @@
             </ul>
         </div> 
     </section>
-    <section id="about_me" class="dark-bg text-white">
-        <div class="p-10"> 
-            <h1 id="about_me_text" class="text-center text-4xl p-4 mb-6 lg:text-6xl">About Me</h1>
+    <div class="divider"></div>
+    <!-- ABOUT ME -->
+    <section id="about_me" class="dark-bg text-white pl-10 pr-10">
+        <div class="pl-10 pr-10"> 
+            <h1 id="about_me_text" class="text-center text-4xl p-4 mb-20 lg:text-6xl">About Me</h1>
             <div class="grid gap-1 grid-cols-1 lg:grid-cols-2">
-                <img src="assets/IMG/aley-grad.jpeg" alt="Aleyna's Profile Picture" id="aleyna_avatar"class="h-48 m-auto md:m-0 md:mx-14 lg:mx-64">
-                <div class="mb-6 mt-6 p-2 md:mb-16 md:mt-0 md:mt-10 lg:ml-40 xl:ml-0"><p id="about_me_para" class="text-lg lg:text-2xl">I'm Aleyna Cintron, a passionate Full Stack Developer and a salutatorian graduate with a Bachelor of Science degree in Web Development from Full Sail University. Throughout my academic journey, I immersed myself in the world of web development, exploring the latest technologies and honing my skills to perfection. Beyond academics, I embrace challenges and thrive on pushing my limits. From solving complex coding exercises to strategizing in games and exploring the city through runs, I seek inspiration in every aspect of life. With a strong foundation in web development and a commitment to continuous improvement, I'm excited to contribute my skills to projects that push the boundaries of innovation and make a positive impact. Let's collaborate and create something remarkable together!
+                <img src="assets/IMG/aley-grad.jpeg" alt="Aleyna's Profile Picture" id="aleyna_avatar"class="h-48 m-auto md:m-0 md:mx-14 lg:mx-64 mt-6 md:mt-10 justify-self-center">
+                <div class="mb-6 mt-6 p-2 md:mb-16 md:mt-10 lg:ml-40 xl:ml-0"><p id="about_me_para" class="text-lg lg:text-2xl">I'm Aleyna Cintron, a passionate Full Stack Developer and a salutatorian graduate with a Bachelor of Science degree in Web Development from Full Sail University. Throughout my academic journey, I immersed myself in the world of web development, exploring the latest technologies and honing my skills to perfection. Beyond academics, I embrace challenges and thrive on pushing my limits. From solving complex coding exercises to strategizing in games and exploring the city through runs, I seek inspiration in every aspect of life. With a strong foundation in web development and a commitment to continuous improvement, I'm excited to contribute my skills to projects that push the boundaries of innovation and make a positive impact. Let's collaborate and create something remarkable together!
                 </p></div>
                 <div></div>
                 <a id="project_btn" href="#projects" class="inline-block text-center px-9 py-5 rounded-lg shadow-lg text-2xl mb-10">See my Projects</a>
             </div>
         </div>
     </section>
-    <!-- edited skills section -->
-    <!-- the goal is to make a percent bar corresponding with each skill -->
-    <section id="skills" class="dark-bg p-10">
-        <h1 id="skills_text" class="text-center text-4xl p-4 mb-6 lg:text-6xl">My Skills</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2">
-            <div id="non-technical_skills" class="mt-8">
-                <ul class="technical-skills">
-                    <li class="ml-4 mr-4 mb-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">CSS</div>
-                            <div class="inline-block">95%</div>
-                        </div>
-                        <span class="bar">
-                            <span class="css"></span>
-                        </span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">HTML</div>
-                            <div class="inline-block">99%</div>
-                        </div>
-                        <span class="bar"><span class="html"></span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">Javascript</div>
-                            <div class="inline-block">90%</div>
-                        </div>
-                        <span class="bar"><span class="javascript"></span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">React</div>
-                            <div class="inline-block">85%</div>
-                        </div>
-                        <span class="bar"><span class="react"></span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">Node.js</div>
-                            <div class="inline-block">95%</div>
-                        </div>
-                        <span class="bar"><span class="nodejs"></span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">Mongodb</div>
-                            <div class="inline-block">85%</div>
-                        </div>
-                        <span class="bar"><span class="mongodb"></span>
-                    </li>
-                    <li class="m-4">
-                        <div class="flex justify-between text-base lg:text-lg">
-                            <div class="inline-block">MySQL</div>
-                            <div class="inline-block">70%</div>
-                        </div>
-                        <span class="bar"><span class="mysql"></span>
-                    </li>
-                </ul>
-            </div>
-            <div id="non-technical_skills" class="text-center mt-8">
-                <ul class="">
-                    <li id="change_text" class="text-4xl mb-2 lg:text-5xl">Other Skills Worth Mentioning</li>
-                    <li class="text-xl lg:text-2xl">Teamwork/Collaboration</li>
-                    <li class="text-xl lg:text-2xl">Problem Solving</li>
-                    <li class="text-xl lg:text-2xl">Creativity</li>
-                    <li class="text-xl lg:text-2xl">Detail-Oriented</li>
-                </ul>
+    <div class="divider"></div>
+    <!-- MY SKILLS -->
+    <section id="skills" class="dark-bg pl-10 pr-10 grow">
+        <div class="pl-10 pr-10 flex-1">
+            <h1 id="skills_text" class="text-center text-4xl pl-4 pr-4 pb-4 mb-20 lg:text-6xl">My Skills</h1>
+            <div class="grid gap-1 grid-cols-1 md:grid-cols-2">
+                <div id="technical_skills" class="mt-8 justify-between">
+                    <ul class="technical-skills">
+                        <li class="ml-4 mr-4 mb-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">CSS</div>
+                                <div class="inline-block">95%</div>
+                            </div>
+                            <span class="bar">
+                                <span class="css"></span>
+                            </span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">HTML</div>
+                                <div class="inline-block">99%</div>
+                            </div>
+                            <span class="bar"><span class="html"></span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">Javascript</div>
+                                <div class="inline-block">90%</div>
+                            </div>
+                            <span class="bar"><span class="javascript"></span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">React</div>
+                                <div class="inline-block">85%</div>
+                            </div>
+                            <span class="bar"><span class="react"></span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">Node.js</div>
+                                <div class="inline-block">95%</div>
+                            </div>
+                            <span class="bar"><span class="nodejs"></span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">Mongodb</div>
+                                <div class="inline-block">85%</div>
+                            </div>
+                            <span class="bar"><span class="mongodb"></span>
+                        </li>
+                        <li class="m-4">
+                            <div class="flex justify-between text-base lg:text-lg">
+                                <div class="inline-block">MySQL</div>
+                                <div class="inline-block">70%</div>
+                            </div>
+                            <span class="bar"><span class="mysql"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="non-technical_skills" class="text-center mt-8">
+                    <ul class="">
+                        <li id="change_text" class="text-4xl mb-2 lg:text-5xl">Other Skills Worth Mentioning</li>
+                        <li class="text-xl lg:text-2xl">Teamwork/Collaboration</li>
+                        <li class="text-xl lg:text-2xl">Problem Solving</li>
+                        <li class="text-xl lg:text-2xl">Creativity</li>
+                        <li class="text-xl lg:text-2xl">Detail-Oriented</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
+    <div class="divider"></div>
     <!-- end of editing portion -->
     <section id="projects" class="dark-bg p-10">
         <h1 id="projects_text" class="text-center text-4xl p-4 mb-6 lg:text-6xl">Projects</h1>
@@ -171,6 +176,7 @@
             </article>
         </section>
     </section>
+    <div class="divider"></div>
     <section id="contact" class="dark-bg p-10">
         <h1 id="contact_me" class="text-4xl text-center p-4 mb-6 lg:text-6xl">Contact Me</h1>
         <div class="grid grid-cols-1 justify-items-center md:grid-cols-3">

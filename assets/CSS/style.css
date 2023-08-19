@@ -12,6 +12,9 @@ Dark Black Background: #121212*/
     background-color: white;
     border:2px solid #01BAEF;
 }
+.header{
+    height: 0rem;
+}
 #header_wrapper{
     position: fixed;
     width: 100%;
@@ -60,14 +63,31 @@ header{
     font-size: 1.7rem;
     color: #01BAEF;
 }
+.divider{
+    background-color: #0A0A0A;
+    border-top: 2px solid;
+    border-color: #333333;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+body {
+    background-color: #0A0A0A;
+}
 /* About Me Section */
+#about_me{
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+}
 #aleyna_avatar{
     border-radius: 5%;
     height: 500px;
 }
-#about_me_text, #skills_text, #projects_text, #contact_me{
-    border-top: 3px solid 
-}
+/* #contact_me{
+    border-top: 2px solid;
+    border-color: #333333; 
+} */
 #about_me_para{
     font-family: Biryani;
     color: #94C5CC;
@@ -89,7 +109,7 @@ header{
     font-family: Nunito;
     color: #01BAEF;
 }
-#non-technical_skills{
+#non-technical_skills, #technical_skills{
     color: #94C5CC;
 }
 /* #change_text{
@@ -135,9 +155,21 @@ header{
 .mysql{
     width: 70%;
 }
-.technical-skills{
+/* .technical-skills{
     margin-left: 25%;
     margin-right: 25%;
+} */
+#skills{
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+#skills_text{
+    /* order:1; */
+    /* display: block; */
 }
 /* Projects Section */
 /* #projects h2, */
