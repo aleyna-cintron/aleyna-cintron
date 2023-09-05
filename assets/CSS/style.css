@@ -190,13 +190,15 @@ i:hover , svg:hover , navbar li:hover {
 /* Breakpoints */
 /* Default styles for all screen sizes */
 .image-container {
-    width: 100%;
+    width: 50%;
 }
 
 .image-container img {
     width: 100%;
-    display: block;
     border-radius: 1%;
+}
+.project-card{
+    margin: 5rem;
 }
 
 /* Apply styles for screens with a maximum width of 767px (small screens) */
