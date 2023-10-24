@@ -88,7 +88,7 @@ body {
     border-top: 2px solid;
     border-color: #333333; 
 } */
-#about_me_para{
+.baby-blue-txt {
     font-family: Biryani;
     color: #94C5CC;
 }
@@ -162,7 +162,6 @@ body {
 #skills{
     height: 100vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -173,6 +172,11 @@ body {
 }
 /* Projects Section */
 /* #projects h2, */
+#projects {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+}
 #contact h2{
     font-family: Lancelot;
     color: #93FF96;
@@ -190,11 +194,11 @@ i:hover , svg:hover , navbar li:hover {
 /* Breakpoints */
 /* Default styles for all screen sizes */
 .image-container {
-    width: 50%;
+    width: 100%;
 }
 
 .image-container img {
-    width: 100%;
+    width: 1800px;
     border-radius: 1%;
 }
 .project-card{
