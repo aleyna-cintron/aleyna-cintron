@@ -110,7 +110,8 @@ body {
     color: #01BAEF;
 }
 #non-technical_skills, #technical_skills{
-    color: #94C5CC;
+    /* color: #94C5CC; */
+    color: white;
 }
 /* #change_text{
     color: #93FF96;
